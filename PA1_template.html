@@ -252,6 +252,8 @@ plot(meanStepsByInterval$interval, meanStepsByInterval$steps, type = &quot;l&quo
 
 <h2>Imputing missing values</h2>
 
+<p>To imput missing values we are going to fill them with the mean corresponding to their interval. </p>
+
 <pre><code class="r">nrNas &lt;- sum(is.na(activityDF$steps) | is.na(activityDF$date) | is.na(activityDF$interval))
 </code></pre>
 

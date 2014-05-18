@@ -97,6 +97,8 @@ Notice that the interval corresponds to the time of the day expressed in hour an
 
 ## Imputing missing values
 
+To imput missing values we are going to fill them with the mean corresponding to their interval. 
+
 
 
 ```r
